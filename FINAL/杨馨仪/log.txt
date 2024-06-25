@@ -1,0 +1,14 @@
+标签平滑 均值方差transform(0.5, 0.5, 0.5), (0.5, 0.5, 0.5)  batch_size128
+Prec@1 56.380 Prec@5 83.150
+ * BestPrec so farPrec@1 58.280 Prec@5 84.400 
+
+optimizer 均值方差改回去 warmup
+Prec@1 56.730 Prec@5 83.400
+ * BestPrec so far@1 56.730 in epoch 50
+
+ wdy train + res2netCA_v1b
+ Prec@1 48.240 Prec@5 75.550
+
+my train +res2netCA_v1b 
+ * Prec@1 64.660 Prec@5 88.430
+ * BestPrec so far@1 66.590 in epoch 28

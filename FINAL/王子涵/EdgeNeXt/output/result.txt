@@ -1,0 +1,13 @@
+第一次：
+* Acc@1 62.740 Acc@5 83.650 loss 1.594
+Accuracy of the model on the 10000 test images: 62.7%
+Max accuracy: 63.06%
+Training time 0:44:55
+
+调整参数之后：
+* Acc@1 64.950 Acc@5 84.480 loss 1.579
+Accuracy of the model on the 10000 test images: 65.0%
+Max accuracy: 65.05%
+Training time 5:13:11
+
+减小batch_size，更改模型之后，精度有所提升但是时间花费过大，提升不明显
